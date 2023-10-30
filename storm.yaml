@@ -21,7 +21,7 @@ storm.zookeeper.port: 2181
 #     - "server2"
 # 
 nimbus.seeds: ["127.0.0.1"]
-storm.log.dir: "/BDMG/Nimbus/Logs"
+storm.log.dir: "/BDMG/Sup/Logs"
 storm.log.file: "storm.log"
 supervisor.slots.ports:
     - 6700
