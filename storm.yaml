@@ -28,6 +28,7 @@ supervisor.slots.ports:
     - 6701
     - 6702
     - 6703
+ui.port: 8090
 
 #     - "server1"
 #     - "server2"
