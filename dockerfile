@@ -28,7 +28,7 @@ RUN mkdir Sup
 WORKDIR Sup
 RUN wget https://dlcdn.apache.org/storm/apache-storm-2.5.0/apache-storm-2.5.0.tar.gz
 RUN tar -xvf apache-storm-2.5.0.tar.gz
-RUN wget -O storm.yaml https://raw.githubusercontent.com/AdeelAslamUnimore/Big-data-excercises/Streaming/storm.yaml
+RUN wget -O storm.yaml https://raw.githubusercontent.com/AdeelAslamUnimore/Big-data-excercises/Supervisor/storm.yaml
 RUN mv storm.yaml /BDMG/Sup/apache-storm-2.5.0/conf
 
 # Repeat the process for zookeeper
